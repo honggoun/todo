@@ -7,3 +7,5 @@ function onLoginSubmit(event){
 }
 
 loginForm.addEventListener("submit", onLoginSubmit);
+
+console.log("asdf")
