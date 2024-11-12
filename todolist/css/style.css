@@ -13,7 +13,7 @@
 
 #todo-form{
     input {
-        width: 150px;
+        width: 300px;
         padding: 10px;
         border: none;
         border-bottom: 2px solid #ccc;
@@ -21,6 +21,7 @@
         font-size: 16px;
         background-color: transparent;
         color: #fff;
+        text-align: center;
     }
     
     input::placeholder {
@@ -34,7 +35,7 @@
 }
 
 input {
-    width: 300px;
+    width: 200px;
     padding: 10px;
     border: none;
     border-bottom: 2px solid #ccc;
@@ -45,6 +46,7 @@ input {
 }
 
 input::placeholder {
+    text-align: center;
     color: #ccc;
     opacity: 0.7;
 }
@@ -54,3 +56,23 @@ input:focus {
 
 }
 
+.container { /* 상위 요소 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 화면 전체 높이 */
+    position: relative;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#clock{
+    color: azure;
+    font-size: 120px;
+    padding: 0;
+}
